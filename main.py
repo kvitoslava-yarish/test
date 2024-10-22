@@ -18,4 +18,5 @@ def academ_integrity(students:dict):
 
 
 def program():
-    pass
+    students = get_students()
+    result = academ_integrity(students)
